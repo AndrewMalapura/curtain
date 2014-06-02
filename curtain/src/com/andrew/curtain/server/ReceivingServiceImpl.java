@@ -11,6 +11,7 @@ import javax.jdo.PersistenceManagerFactory;
 
 import com.andrew.curtain.client.ReceivingService;
 import com.andrew.curtain.server.jdo.MenuJDO;
+import com.andrew.curtain.server.jdo.SampleImageJDO;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**
@@ -102,5 +103,19 @@ public class ReceivingServiceImpl extends RemoteServiceServlet implements
 			pm.close();
 		}
 		return items;
+	}
+
+	@Override
+	public void removeGalleryImage(SampleImageJDO img)
+			throws IllegalArgumentException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addGalleryImage(SampleImageJDO img)
+			throws IllegalArgumentException {
+		// TODO Auto-generated method stub
+		
 	}
 }

@@ -56,7 +56,7 @@ public class AdminWidget extends Composite {
 	        @Override
 	        public void onBrowserEvent(Event event) {
 	             if(Event.ONCLICK == event.getTypeInt()) {
-	                 Window.alert("ok");
+	                 Window.alert(imgName.getText());
 	             }
 
 	        }
