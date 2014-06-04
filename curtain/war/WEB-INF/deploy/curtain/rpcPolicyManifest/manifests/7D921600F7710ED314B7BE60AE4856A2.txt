@@ -1,0 +1,2 @@
+serviceClass: com.andrew.curtain.client.ReceivingService
+path: D9DDA20508B71F8504ADB81EEC3E032B.gwt.rpc
